@@ -12,7 +12,7 @@ ngOnInit(): void {
 }
 
  onUploaderCreate() {
-    this.dropEle = document.getElementsByClassName("droparea")[0] as HTMLElement;
+    this.dropEle = document.getElementsByClassName("GridUploadfile")[0] as HTMLElement;
   }
 
 }
